@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 /* SELECTOR UNIVERSAL */
 * {
     margin: 0;
@@ -10,7 +12,7 @@ html{
 
 /* SELECTOR DE TIPO */
 body{
-    background-color: #82adab;
+    background-color: #3b8d86;
     color: white;
     font-size: 1.6rem;
 }
@@ -19,7 +21,7 @@ ul{
     list-style: none;
     text-align: center;
     padding: 1rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -38,6 +40,22 @@ hr{
     margin: 2rem 0
 }
 
+li > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+li > a:hover{
+    color: rgb(0, 110, 92);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    animation-delay: 0.2s;
+}
+
+
 /* SELECTOR DE ID */
 
 #contenedor{
@@ -54,7 +72,7 @@ hr{
 #encabezado{
     width: 90%;
     height: auto;
-    background-color: #afafff;
+    background-color: #00b493;
     margin: 1rem auto;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -89,14 +107,15 @@ hr{
 .modelo{
     padding: 1rem;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Abril Fatface", serif;
     font-size: 2rem;
     border: transparent;
     font-weight: bold;
+    color: #000000;
 }
 
 .descripcion{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Abril Fatface", serif;
     font-weight: 400;
     text-align: justify;
     font-size: 1.7rem;
@@ -134,4 +153,24 @@ hr{
     color: white;
     text-align: center;
     padding: 2rem 1rem;
+}
+
+.tarjeta{
+    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
+    overflow: hidden;
+    max-width: 330px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 15px;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
