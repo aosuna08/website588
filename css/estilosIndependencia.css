@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+
+/* SELECTOR UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* SELECTOR DE TIPO */
+body{
+    background-color: #80693c;
+    color: white;
+    font-size: 1.6rem;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+li{
+    display: inline;
+    margin: 3em;
+    padding: 10px 30px;
+}
+
+hr{
+    border: none;
+    font-size: 4px;
+    background-color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 3);
+    margin: 2rem 0
+}
+
+li > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+li > a:hover{
+    color: rgb(77, 72, 50);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    animation-delay: 0.2s;
+}
+
+
+/* SELECTOR DE ID */
+
+#contenedor{
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 6px 0px #371e3d;
+}
+
+#encabezado{
+    width: 90%;
+    height: auto;
+    background-color: #b9a57a;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.7rem;
+    padding: 1.5rem 0 2.5rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 6px 0px #371e3d;
+}
+
+/* SELECTOR DE CLASE */
+.imagen{
+    border-radius: 2rem;
+}
+
+.menu{
+    height: auto;
+    width: 90%;
+    background-color: #ffffff;
+    margin: 1rem;
+    border-radius: 0.4rem;
+}
+
+.img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.personaje{
+    padding: 1rem;
+    text-align: center;
+    font-family: "IM Fell French Canon", serif;
+    font-size: 2rem;
+    border: transparent;
+    font-weight: bold;
+    color: #000000;
+}
+
+.descripcion{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.7rem;
+    padding: 0.7rem 2.1rem;
+    font-size: normal;
+    background-color: #82adab;
+    color: black;
+}
+
+.boton{
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 0.8px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.boton:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    animation-delay: 0.3s;
+    transform: scale(1, 120%);
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.tarjeta{
+    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
+    overflow: hidden;
+    max-width: 330px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 15px;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
