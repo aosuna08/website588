@@ -55,6 +55,28 @@ li > a:hover{
     animation-delay: 0.2s;
 }
 
+button {
+    display: inline-block;
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: auto;
+}
+
+button:hover {
+    background: #65bedb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 /* SELECTOR DE ID */
 
