@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgb(41, 90, 88);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorSpaceBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(41, 90, 88);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorSpaceAround {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(41, 90, 88);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.contenedorItemStretch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: rgb(41, 90, 88);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+    height: 200px;
+}
+
+.contenedorItemEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(41, 90, 88);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+    height: 200px;
+}
+
+.contenedorItemCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(41, 90, 88);
+    padding: 10px;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+.item {
+    background-color: rgb(191, 204, 200);
+    width: 100px;
+    margin: 10px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 75px;
+}
+
+.item:hover {
+    background-color: rgb(112, 105, 105);
+}
+
