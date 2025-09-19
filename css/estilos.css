@@ -55,29 +55,6 @@ li > a:hover{
     animation-delay: 0.2s;
 }
 
-button {
-    display: inline-block;
-    color: rgb(43, 42, 42);
-    text-decoration: none;
-    padding: 1.5rem 2rem;
-    border-radius: 30px;
-    text-align: center;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-top: auto;
-}
-
-button:hover {
-    background: #65bedb;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 /* SELECTOR DE ID */
 
 #contenedor{
@@ -106,6 +83,17 @@ button:hover {
 }
 
 /* SELECTOR DE CLASE */
+.contenedores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: rgb(88, 121, 120);
+    padding: 10px;
+    border: 2px solid black;
+    width: 90%;
+}
+
 .imagen{
     border-radius: 2rem;
 }
@@ -119,10 +107,12 @@ button:hover {
 }
 
 .img{
+    background-color: white;
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    height: auto;
+    height: 50%;
+    width: 100%;
 }
 
 .modelo{
@@ -136,14 +126,16 @@ button:hover {
 }
 
 .descripcion{
+    flex: 1;
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     text-align: justify;
     font-size: 1.7rem;
     padding: 0.7rem 2.1rem;
-    font-size: normal;
+    font-size: 90%;
     background-color: #82adab;
     color: black;
+    overflow-y: hidden;
 }
 
 .boton{
@@ -162,11 +154,10 @@ button:hover {
 }
 
 .boton:hover{
-    background-color: black;
+    background-color: rgba(0, 94, 93, 0.63);
     color: white;
     font-weight: bold;
     animation-delay: 0.3s;
-    transform: scale(1, 120%);
 }
 
 .footer {
@@ -177,10 +168,13 @@ button:hover {
 }
 
 .tarjeta{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(149, 183, 176);
     box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
     overflow: hidden;
-    max-width: 330px;
-    height: 100%;
+    width: 400px;
+    height: 500px;
     margin: auto;
     text-align: center;
     border: 2px solid;
