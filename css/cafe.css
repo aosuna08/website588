@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+
+/* SELECTOR ID */
+#bodyContent{
+    width: 900px;
+    height: 1000px;
+    justify-self: center;
+}
+
+#header {
+    width: auto;
+    height: 15%;
+    background-color: #958552;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: justify;
+}
+
+#nav {
+    width: auto;
+    height: 5%;
+}
+
+#mainSection {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aside {
+    width: 35%;
+    height: auto;
+}
+
+
+#footer{
+    width: auto;
+    height: 10%;
+}
+
+/* SELECTOR CLASE */
+.encabezado{
+font-family: "Stardos Stencil", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    text-align: justify;
+    font-size: 42px;
+}
+
+.barraNavegacion{
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: justify;
+}
+
+.texto{
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* SELECTOR HTML */
+ul{
+    list-style: none;
+    text-align: center;
+    background-color: #58391f;
+}
+
+li{
+    display: inline;
+    list-style: none;
+    margin: 2em;
+}
+
+footer{
+    background-color: #544536;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: justify;
+}
+
+img{
+    width: 100px;
+    height: 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a{
+    color: white;
+}
