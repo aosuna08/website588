@@ -5,20 +5,17 @@
     width: 900px;
     height: 1000px;
     justify-self: center;
+    margin: 0;
 }
 
 #header {
     width: auto;
     height: 15%;
-    background-color: #958552;
+    background-color: #544536;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    font-family: "Stardos Stencil", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    text-align: justify;
+    padding: 0;
 }
 
 #nav {
@@ -27,40 +24,54 @@
 }
 
 #mainSection {
-    width: 65%;
-    height: auto;
+    height: 65%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    background-color: #2e2823;
+
 }
 
 #aside {
     width: 35%;
-    height: auto;
+    height: 97%;
+    background-color: #4d433b;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 #footer{
     width: auto;
-    height: 10%;
+    height: 5%;
+}
+
+#asideContent{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 /* SELECTOR CLASE */
 .encabezado{
-font-family: "Stardos Stencil", system-ui;
+    font-family: "Stardos Stencil", system-ui;
     font-weight: 600;
     font-style: normal;
+    font-size: 24px;
     color: white;
-    text-align: justify;
-    font-size: 42px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .barraNavegacion{
-    font-family: "Stardos Stencil", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
+    display: flex;
+    justify-content: center;
     text-align: justify;
+    background-color: #58391f;
 }
 
 .texto{
@@ -72,21 +83,32 @@ font-family: "Stardos Stencil", system-ui;
     font-size: 16px;
 }
 
-/* SELECTOR HTML */
-ul{
-    list-style: none;
-    text-align: center;
-    background-color: #58391f;
-}
-
-li{
+.horizontal{
     display: inline;
-    list-style: none;
     margin: 2em;
 }
 
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+/* SELECTOR HTML */
+ul{
+    text-align: center;
+    padding: 0;
+    text-align: justify;
+}
+
+li{
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
 footer{
-    background-color: #544536;
+    background-color: #58391f;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -100,11 +122,18 @@ footer{
 
 img{
     width: 100px;
-    height: 1px solid;
+    height: 70px;
     margin-left: 5px;
     margin-right: 5px;
+    border-radius: 10%;
+    box-shadow: 0 2px 6px black;
 }
 
 a{
     color: white;
+}
+
+main{
+    width: 100%;
+    padding: 30px;
 }
