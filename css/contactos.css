@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+/* SELECTOR UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* SELECTOR DE TIPO */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin-top: 10rem;
+    background-color: #3b8d86;
+    font-size: 1.6rem;
+}
+
+a, li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label {
+    font-family: "Smooch Sans", sans-serif;
+    color: black;
+    font-size: large;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    background-color: #00959d;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #00959d;
+}
+
+/* SELECTOR DE ID */
+#logoForm {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#tarjetaFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+    width: 480px;
+    height: auto;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgb(0,0,0,1);
+}
+
+/* SELECTOR DE CLASE */
+.formH{
+    font-family: "Smooch Sans", sans-serif;
+    font-size: x-large;
+    justify-content: center;
+    color: #085bc0;
+}
+
+.formInput{
+    width: 100%;
+    font-family: "Smooch Sans", sans-serif;
+    font-size: large;
+}
+
+.imagen{
+    border-radius: 2rem;
+}
+
+.footer {
+    margin-top: 5rem;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* MENU */
+.container {
+    max-width: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: darkcyan;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+p {
+    text-align: center;
+    z-index: 1000;
+}
+
+@media(max-width:600px) {
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(5, 5, 4);
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar{
+        display: initial;
+    }
+}

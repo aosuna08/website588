@@ -6,33 +6,34 @@
     <title>Osuna Motors</title>
     <meta name="description" content="Venta de automóviles nuevos y usados en Osuna Motors.">
     <meta name="keywords" content="automóviles, nissan, toyota, ford, venta de autos, autos usados, autos nuevos">
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/automoviles.css">
 </head>
 
 <body>
     <center>
-    <header id="encabezado">
-            <h1>Osuna Motors</h1>
-            <h2>Av Insurgentes 1337 col. Villa Galaxia</h2>
-            <h3>Mazatlan, Sinaloa</h3>
+    <header class="fondo">
+        <div class="menu container">
+            <a href="#" class="logo">Osuna Motors</a>
+            <input type="checkbox" name="menu" id="menu">
+            <label for="menu">
+                <img src="/assets/menu.png" class="menu-icon" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="/html/automoviles.html">Automoviles</a></li>
+                    <li><a href="/html/contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <nav> 
-        <ul> 
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="#toyota">Toyota</a></li>
-            <li><a href="#nissan">Nissan</a></li>
-            <li><a href="#ford">Ford</a></li>
-            <li><a href="/html/cotizacionAuto.html">Cotizaciones</a></li>
-        </ul>
-    </nav>
-
     <main id="contenedor">
         <section>
             <!-- Toyota Section -->
             <a id="toyota"></a>
             <header>
-                <img class="logo" src="/assets/imgAutos/toyotaLogo.jpg" alt="Logo Toyota"><br>
+                <img class="logoAuto" src="/assets/imgAutos/toyotaLogo.jpg" alt="Logo Toyota"><br>
                 <h2>Toyota</h2><br>
                 <hr>
             </header>
@@ -84,7 +85,7 @@
             <!-- Nissan Section -->
             <a id="nissan"></a>
             <header>
-                    <img class="logo" src="/assets/imgAutos/nissanLogo.svg" height="500px" width="500px" alt="Logo Nissan"><br>
+                    <img class="logoAuto" src="/assets/imgAutos/nissanLogo.svg" height="500px" width="500px" alt="Logo Nissan"><br>
                     <h2>Nissan</h2><br>
                     <hr>
             </header>
@@ -135,7 +136,7 @@
             <!-- Ford Section -->
             <a id="ford"></a>
             <header>
-                    <img class="logo" src="/assets/imgAutos/fordLogo.png" alt="Logo Ford"><br>
+                    <img class="logoAuto" src="/assets/imgAutos/fordLogo.png" alt="Logo Ford"><br>
                     <h2>Ford</h2><br>
                     <hr>
             </header>
@@ -153,7 +154,7 @@
                     <h2 class="modelo">Ford Mustang Fastback s650</h2>
                     <img class="img" src="/assets/imgAutos/ford2.png" alt="Ford Mustang">
                     <p class="descripcion">
-                         Conserva un estilo familiar pero presenta un interior moderno con un panel de instrumentos digital de 12.4 pulgadas y una pantalla táctil de 13.2 pulgadas para el sistema SYNC 4, ofreciendo personalización y mayor tecnología a los conductores.
+                        Conserva un estilo familiar pero presenta un interior moderno con un panel de instrumentos digital de 12.4 pulgadas y una pantalla táctil de 13.2 pulgadas para el sistema SYNC 4, ofreciendo personalización y mayor tecnología a los conductores.
                     </p>
                     <button class="boton">Mas informacion</button>
                 </div>

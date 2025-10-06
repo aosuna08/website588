@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
-
-
 /* SELECTOR UNIVERSAL */
 * {
-    margin: 5px;
+    margin: 0;
     padding: 0;
 }
 
@@ -13,38 +9,11 @@ html{
 }
 
 /* SELECTOR DE TIPO */
-label {
-    font-family: "Smooch Sans", sans-serif;
-    color: black;
-    font-size: large;
-}
-
-button {
-    width: 90%;
-    padding: 10px;
-    background-color: #00959d;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-    margin: 10px auto;
-    display: block;
-}
-
-button:hover {
-    background-color: #00959d;
-}
-
 body{
     background-color: #3b8d86;
     color: white;
     font-size: 1.6rem;
     border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    justify-content: center;
 }
 
 ul{
@@ -60,14 +29,6 @@ li{
     display: inline;
     margin: 1em;
     padding: 10px 30px;
-}
-
-hr{
-    border: none;
-    font-size: 4px;
-    background-color: black;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 3);
-    margin: 2rem 0
 }
 
 li > a{
@@ -86,38 +47,10 @@ li > a:hover{
 }
 
 /* SELECTOR DE ID */
-#logoForm {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-
-#tarjetaFormulario {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: start;
-    width: 480px;
-    height: auto;
-    color: rgb(0, 0, 0);
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgb(0,0,0,1);
-}
-
-#contenedor{
-    width: auto;
-    height: auto;
-    background-color: rgb(255, 255, 255);
-    color: black;
+#fotoAutor{
     margin: 4rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0px 2px 6px 0px #371e3d;
+    width: 300px; 
+    height: 400px;
 }
 
 #encabezado{
@@ -135,123 +68,11 @@ li > a:hover{
 }
 
 /* SELECTOR DE CLASE */
-.formH{
-    font-family: "Smooch Sans", sans-serif;
-    font-size: x-large;
-    justify-content: center;
-    color: #085bc0;
-}
-
-.formInput{
-    width: 100%;
-    font-family: "Smooch Sans", sans-serif;
-    font-size: large;
-}
-
-.contenedores {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-    background-color: rgb(88, 121, 120);
-    padding: 10px;
-    border: 2px solid black;
-    width: 90%;
-}
-
-.imagen{
-    border-radius: 2rem;
-}
-
-.menu{
-    height: auto;
-    width: 90%;
-    background-color: #ffffff;
-    margin: 1rem;
-    border-radius: 0.4rem;
-}
-
-.img{
-    background-color: white;
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: 50%;
-    width: 100%;
-}
-
-.modelo{
-    padding: 1rem;
-    text-align: center;
-    font-family: "Abril Fatface", serif;
-    font-size: 2rem;
-    border: transparent;
-    font-weight: bold;
-    color: #000000;
-}
-
-.descripcion{
-    flex: 1;
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    text-align: justify;
-    font-size: 1.7rem;
-    padding: 0.7rem 2.1rem;
-    font-size: 90%;
-    background-color: #82adab;
-    color: black;
-    overflow-y: hidden;
-}
-
-.boton{
-    border: none;
-    outline: none;
-    display: inline-block;
-    padding: 0.8px;
-    color: black;
-    background-color: white;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: 0.3s ease-in-out;
-}
-
-.boton:hover{
-    background-color: rgba(0, 94, 93, 0.63);
-    color: white;
-    font-weight: bold;
-    animation-delay: 0.3s;
-}
-
 .footer {
+    margin-top: 1em;
+    margin-bottom: 0;
     background-color: #222;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
 }
-
-.tarjeta{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(149, 183, 176);
-    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
-    overflow: hidden;
-    width: 400px;
-    height: 500px;
-    margin: auto;
-    text-align: center;
-    border: 2px solid;
-    border-radius: 10px;
-    border: transparent;
-    margin-top: 15px;
-}
-
-.logo{
-    height: 250px;
-    width: 250px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
