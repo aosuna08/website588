@@ -18,7 +18,7 @@ body {
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -55,11 +55,11 @@ body {
     display: none;
 }
 
-.menu-icon {
+.menu-icono {
     width: 25px;
 }
 
-.menu label{
+.menu label {
     cursor: pointer;
     display: none;
 }
@@ -70,16 +70,16 @@ p {
     z-index: 1000;
 }
 
-@media(max-width:600px) {
-    .menu{
+@media(max-width:660px) {
+    .menu {
         padding: 30px;
     }
 
-    .menu label{
+    .menu label {
         display: initial;
     }
 
-    .menu .navbar{
+    .menu .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -92,7 +92,7 @@ p {
         width: 100%;
     }
 
-    #menu:checked~.navbar{
+    #menu:checked~.navbar {
         display: initial;
     }
 }

@@ -103,13 +103,17 @@ button:hover {
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 15px;
     z-index: 1000;
 }
 
