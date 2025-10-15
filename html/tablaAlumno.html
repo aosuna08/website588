@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabla dinamica </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        input {
+            margin: 5px;
+            padding: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; 
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .btn {
+            padding: 6px 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../index.html"> Inicio </a>
+        <br>
+        <a href="practicasMenu.html"> Menu </a>
+    </nav>
+    <br>
+    <center>
+        <h2>Agregar Estudiantes</h2>
+    </center>
+
+    <label>ID:</label>
+    <input type="text" id="idInput" placeholder="ID">
+
+    <label>Nombre:</label>
+    <input type="text" id="nombreInput" placeholder="Nombre">
+
+    <label>Escuela:</label>
+    <input type="text" id="escuelaInput" placeholder="Escuela">
+
+    <button id="btnAgregar" class="btn">Agregar</button>
+
+    <table id="tabla">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Escuela</th>
+        </tr>
+    </thead>
+    <tbody id="tablaBody">
+
+    </tbody>
+    </table>
+    <script src="../js/tablas.js"></script>
+</body>
+</html>
